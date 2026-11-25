@@ -1,0 +1,7 @@
+medida,valor,nota
+nivel_centrado_peso_oni_ganancia,0.6729542016983032,Modelo XGBoost en nivel del notebook 4; semilla 42 salvo las medias de 10 semillas (0 a 9). Fase El Niño con el ONI publicado. Centrado = respaldo previo al 2026-09-21.
+nivel_centrado_mae_el_nino,406.37586114630943,Modelo XGBoost en nivel del notebook 4; semilla 42 salvo las medias de 10 semillas (0 a 9). Fase El Niño con el ONI publicado. Centrado = respaldo previo al 2026-09-21.
+nivel_publicado_peso_oni_ganancia,0.33321666717529297,Modelo XGBoost en nivel del notebook 4; semilla 42 salvo las medias de 10 semillas (0 a 9). Fase El Niño con el ONI publicado. Centrado = respaldo previo al 2026-09-21.
+nivel_publicado_mae_el_nino,255.9556596259085,Modelo XGBoost en nivel del notebook 4; semilla 42 salvo las medias de 10 semillas (0 a 9). Fase El Niño con el ONI publicado. Centrado = respaldo previo al 2026-09-21.
+nivel_centrado_mae_medio_10_semillas,279.8914883066475,Modelo XGBoost en nivel del notebook 4; semilla 42 salvo las medias de 10 semillas (0 a 9). Fase El Niño con el ONI publicado. Centrado = respaldo previo al 2026-09-21.
+nivel_publicado_mae_medio_10_semillas,227.95303887549417,Modelo XGBoost en nivel del notebook 4; semilla 42 salvo las medias de 10 semillas (0 a 9). Fase El Niño con el ONI publicado. Centrado = respaldo previo al 2026-09-21.

@@ -1,0 +1,27 @@
+grupo,media,desv_entre_pliegues,pliegues_positivos,fraccion_semillas,n_columnas,decision,motivo
+precio_bolsa,3.32499997737375,2.368261679319964,5,1.0,9,seleccionada,"pasa la regla (supera al ruido, consistente y estable)"
+aportes_energia,0.3766051020045398,0.25343303383866417,5,1.0,9,seleccionada,"pasa la regla (supera al ruido, consistente y estable)"
+indice_ONI_publicado,0.13955553707079002,0.14510597010047352,4,0.6,12,descartada,no es estable entre semillas
+vertimientos,0.12575915404732824,0.11509354320076194,4,0.8,10,seleccionada,"pasa la regla (supera al ruido, consistente y estable)"
+precio_oferta,0.09471040026076993,0.1507338133078218,3,0.2,9,descartada,no es consistente entre pliegues; no es estable entre semillas
+gen_hidraulica,0.0859564031938957,0.05504721341263881,5,0.8,9,seleccionada,"pasa la regla (supera al ruido, consistente y estable)"
+festivos_ventana,0.060412154570454416,0.056668241717610465,4,0.4,1,descartada,no es estable entre semillas
+precio_escasez,0.04368895765309313,0.12367062252101331,1,0.0,1,descartada,no es consistente entre pliegues; no es estable entre semillas
+disp_dec_termica,0.0261258428154535,0.05941226071927677,3,0.6,1,descartada,no es consistente entre pliegues; no es estable entre semillas
+disp_dec_no_termica,0.024580239417939253,0.0389120537171985,4,0.4,1,descartada,no es estable entre semillas
+dia_semana,0.018550295376093373,0.012462506859827473,5,1.0,1,seleccionada,"pasa la regla (supera al ruido, consistente y estable)"
+ipc_variacion_interanual,0.007180089289663158,0.01717387660139733,3,0.0,1,descartada,no es consistente entre pliegues; no es estable entre semillas
+disp_dec_hidraulica,0.006593094862762401,0.021780814442678806,3,0.0,1,descartada,no es consistente entre pliegues; no es estable entre semillas
+gen_no_termica,0.006226112130463946,0.02520105585657504,3,0.0,9,descartada,no es consistente entre pliegues; no es estable entre semillas
+mes,0.0031213440481215426,0.011706538425249043,2,0.0,1,descartada,no es consistente entre pliegues; no es estable entre semillas
+dia_mes,0.0025963130352414506,0.005805532437668691,1,0.0,1,descartada,no es consistente entre pliegues; no es estable entre semillas
+ruido_5,2.7029426524904923e-06,6.043963510252332e-06,1,0.0,1,descartada,variable de ruido (control)
+ruido_3,0.0,0.0,0,0.0,1,descartada,variable de ruido (control)
+tipo_dia,0.0,0.0,0,0.0,1,descartada,no supera al ruido; no es consistente entre pliegues; no es estable entre semillas
+ruido_1,0.0,0.0,0,0.0,1,descartada,variable de ruido (control)
+ruido_2,-4.775408611402554e-05,0.00010678138275433988,0,0.0,1,descartada,variable de ruido (control)
+ruido_4,-0.0002625857348224372,0.0005871595529847032,0,0.0,1,descartada,variable de ruido (control)
+ipp_general_variacion_interanual,-0.010097198859296785,0.019521015268812877,2,0.0,1,descartada,no supera al ruido; no es consistente entre pliegues; no es estable entre semillas
+gen_termica,-0.0340566983324055,0.16202733739223774,4,0.0,9,descartada,no supera al ruido; no es estable entre semillas
+vol_util,-0.11017436919927512,0.5090869113597565,4,0.0,9,descartada,no supera al ruido; no es estable entre semillas
+ipp_mineria_variacion_interanual,-0.17131710040309497,0.26625231845838315,1,0.0,1,descartada,no supera al ruido; no es consistente entre pliegues; no es estable entre semillas

@@ -1,0 +1,82 @@
+fecha_corrida,notebook,familia,modelo,objetivo,configuracion,particion,embargo_dias,reajuste_dias,semilla,bloque,n_obs,MAE,RMSE,SMAPE,notas
+2026-11-22 23:23,5_SARIMAX_modelo_base,Referencia,Referencia: persistencia (P de hoy),pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,178.37,291.68,37.07,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Referencia,Referencia: media del entrenamiento,pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,300.84,456.89,70.13,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,pares_30d,"SARIMAX (2,1,1)(1,0,0,7) log + calendario + sistema",65/15/20 por fecha,31,60.0,,prueba,34650,170.49,267.44,35.9,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,pares_30d,"SARIMAX (2,1,1)(1,0,0,7) log solo calendario",65/15/20 por fecha,31,60.0,,prueba,34650,170.67,266.0,36.05,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,pares_30d,"SARIMA (2,1,1)(1,0,0,7) log sin exógenas",65/15/20 por fecha,31,60.0,,prueba,34650,171.53,268.37,36.16,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,pares_30d,"SARIMAX (2,1,1)(1,0,0,7) log + sistema + gen_termica y precio_oferta",65/15/20 por fecha,31,60.0,,prueba,34650,174.38,278.11,36.17,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,pares_30d,"SARIMAX (2,1,1)(1,0,0,7) log + sistema, invertibilidad impuesta",65/15/20 por fecha,31,60.0,,prueba,34650,170.44,267.98,35.72,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,pares_30d,"SARIMAX (2,0,1) log + sistema (contraste d = 0)",65/15/20 por fecha,31,60.0,,prueba,34650,176.24,276.02,37.73,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Referencia,Referencia: persistencia (P de hoy),promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,145.66,232.21,30.54,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Referencia,Referencia: media del entrenamiento,promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,292.57,421.42,69.83,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,promedio_30d,"SARIMAX (2,1,1)(1,0,0,7) log + calendario + sistema",65/15/20 por fecha,31,60.0,,prueba,1155,136.7,206.31,28.66,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,promedio_30d,"SARIMAX (2,1,1)(1,0,0,7) log solo calendario",65/15/20 por fecha,31,60.0,,prueba,1155,137.17,204.72,28.88,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,promedio_30d,"SARIMA (2,1,1)(1,0,0,7) log sin exógenas",65/15/20 por fecha,31,60.0,,prueba,1155,137.45,206.29,28.73,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,promedio_30d,"SARIMAX (2,1,1)(1,0,0,7) log + sistema + gen_termica y precio_oferta",65/15/20 por fecha,31,60.0,,prueba,1155,139.82,216.51,28.84,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,promedio_30d,"SARIMAX (2,1,1)(1,0,0,7) log + sistema, invertibilidad impuesta",65/15/20 por fecha,31,60.0,,prueba,1155,136.53,206.86,28.42,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,promedio_30d,"SARIMAX (2,0,1) log + sistema (contraste d = 0)",65/15/20 por fecha,31,60.0,,prueba,1155,145.28,215.02,31.14,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Referencia,Referencia: persistencia (P de hoy),dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,239.27,359.76,48.39,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Referencia,Referencia: media del entrenamiento,dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,298.97,456.09,69.66,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,dia_30,"SARIMAX (2,1,1)(1,0,0,7) log + calendario + sistema",65/15/20 por fecha,31,60.0,,prueba,1155,219.52,323.19,46.22,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,dia_30,"SARIMAX (2,1,1)(1,0,0,7) log solo calendario",65/15/20 por fecha,31,60.0,,prueba,1155,219.99,321.06,46.46,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,dia_30,"SARIMA (2,1,1)(1,0,0,7) log sin exógenas",65/15/20 por fecha,31,60.0,,prueba,1155,221.13,324.76,46.32,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,dia_30,"SARIMAX (2,1,1)(1,0,0,7) log + sistema + gen_termica y precio_oferta",65/15/20 por fecha,31,60.0,,prueba,1155,226.54,336.94,46.64,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,dia_30,"SARIMAX (2,1,1)(1,0,0,7) log + sistema, invertibilidad impuesta",65/15/20 por fecha,31,60.0,,prueba,1155,219.45,324.11,45.83,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,dia_30,"SARIMAX (2,0,1) log + sistema (contraste d = 0)",65/15/20 por fecha,31,60.0,,prueba,1155,226.02,341.24,49.4,
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,pares_30d,"SARIMAX (2,1,1)(1,0,0,7) log + calendario + sistema",65/15/20 por fecha,31,,,entrenamiento,135270,49.51,102.16,23.34,en muestra: el ajuste vio estos orígenes
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,promedio_30d,"SARIMAX (2,1,1)(1,0,0,7) log + calendario + sistema",65/15/20 por fecha,31,,,entrenamiento,4509,41.7,80.5,19.65,en muestra: el ajuste vio estos orígenes
+2026-11-22 23:23,5_SARIMAX_modelo_base,Estadística,SARIMAX,dia_30,"SARIMAX (2,1,1)(1,0,0,7) log + calendario + sistema",65/15/20 por fecha,31,,,entrenamiento,4509,65.78,129.11,30.63,en muestra: el ajuste vio estos orígenes
+2026-11-22 23:54,6_XGBoost_modelo_base,Referencia,Referencia: persistencia (P de hoy),pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,178.37,291.68,37.07,
+2026-11-22 23:54,6_XGBoost_modelo_base,Machine Learning,XGBoost,pares_30d,"XGBoost profundidad 1, 200 árboles, mcw 100, tasa 0,02 (trayectoria, 5 semillas)",65/15/20 por fecha,31,60.0,,prueba,34650,175.59,278.63,37.09,
+2026-11-22 23:54,6_XGBoost_modelo_base,Referencia,Referencia: persistencia (P de hoy),promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,145.66,232.21,30.54,
+2026-11-22 23:54,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"XGBoost profundidad 1, 200 árboles, mcw 100, tasa 0,02 (trayectoria, 5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,143.17,218.09,30.4,
+2026-11-22 23:54,6_XGBoost_modelo_base,Referencia,Referencia: persistencia (P de hoy),dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,239.27,359.76,48.39,
+2026-11-22 23:54,6_XGBoost_modelo_base,Machine Learning,XGBoost,dia_30,"XGBoost profundidad 1, 200 árboles, mcw 100, tasa 0,02 (trayectoria, 5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,232.74,339.33,48.67,
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,pares_30d,"XGBoost profundidad 1, 200 árboles, mcw 100, tasa 0,02 (trayectoria, 5 semillas)",65/15/20 por fecha,31,,,entrenamiento,137040,48.4,103.38,22.76,en muestra: el ajuste vio estos orígenes
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"XGBoost profundidad 1, 200 árboles, mcw 100, tasa 0,02 (trayectoria, 5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,40.95,82.0,19.22,en muestra: el ajuste vio estos orígenes
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,dia_30,"XGBoost profundidad 1, 200 árboles, mcw 100, tasa 0,02 (trayectoria, 5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,63.44,129.47,29.43,en muestra: el ajuste vio estos orígenes
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | XGBoost objetivo relativo, reajuste 60 d",65/15/20 por fecha,31,60.0,,prueba,1155,143.1,218.48,30.19,"promedio de 5 semillas; MAE medio 143.11, desv 0.12"
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | XGBoost objetivo en nivel, reajuste 60 d",65/15/20 por fecha,31,60.0,,prueba,1155,179.17,284.64,36.79,"promedio de 5 semillas; MAE medio 179.24, desv 0.73"
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | XGBoost objetivo relativo, un solo ajuste",65/15/20 por fecha,31,,,prueba,1155,141.03,215.38,30.12,"promedio de 5 semillas; MAE medio 141.04, desv 0.05"
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | XGBoost objetivo relativo, solo el precio",65/15/20 por fecha,31,60.0,,prueba,1155,142.94,215.92,30.3,"promedio de 5 semillas; MAE medio 142.94, desv 0.19"
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | objetivo relativo, reajuste 60 d",65/15/20 por fecha,31,60.0,42.0,prueba,1155,142.99,218.29,30.19,corrida individual
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | objetivo relativo, reajuste 60 d",65/15/20 por fecha,31,60.0,7.0,prueba,1155,142.97,218.07,30.18,corrida individual
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | objetivo relativo, reajuste 60 d",65/15/20 por fecha,31,60.0,123.0,prueba,1155,143.09,218.43,30.21,corrida individual
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | objetivo relativo, reajuste 60 d",65/15/20 por fecha,31,60.0,2024.0,prueba,1155,143.25,218.84,30.2,corrida individual
+2026-11-22 23:55,6_XGBoost_modelo_base,Machine Learning,XGBoost,promedio_30d,"profundidad 1, 200 árboles, mcw 100, tasa 0,02 | objetivo relativo, reajuste 60 d",65/15/20 por fecha,31,60.0,99.0,prueba,1155,143.24,218.81,30.2,corrida individual
+2026-11-23 08:09,7_LSTM_modelo_base,Referencia,Referencia: persistencia (P de hoy),pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,178.37,291.68,37.07,
+2026-11-23 08:09,7_LSTM_modelo_base,Referencia,Referencia: media del entrenamiento,pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,300.84,456.89,70.13,
+2026-11-23 08:09,7_LSTM_modelo_base,Deep Learning,LSTM,pares_30d,"LSTM 32, 3 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,34650,176.93,276.19,37.76,
+2026-11-23 08:09,7_LSTM_modelo_base,Referencia,Referencia: persistencia (P de hoy),promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,145.66,232.21,30.54,
+2026-11-23 08:09,7_LSTM_modelo_base,Referencia,Referencia: media del entrenamiento,promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,292.57,421.42,69.83,
+2026-11-23 08:09,7_LSTM_modelo_base,Deep Learning,LSTM,promedio_30d,"LSTM 32, 3 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,144.83,214.62,31.09,
+2026-11-23 08:09,7_LSTM_modelo_base,Referencia,Referencia: persistencia (P de hoy),dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,239.27,359.76,48.39,
+2026-11-23 08:09,7_LSTM_modelo_base,Referencia,Referencia: media del entrenamiento,dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,298.97,456.09,69.66,
+2026-11-23 08:09,7_LSTM_modelo_base,Deep Learning,LSTM,dia_30,"LSTM 32, 3 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,233.48,339.41,50.13,
+2026-11-23 08:09,7_LSTM_modelo_base,Deep Learning,LSTM,pares_30d,"LSTM 32, 3 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,137040,48.43,100.33,23.07,en muestra: el ajuste vio estos orígenes
+2026-11-23 08:09,7_LSTM_modelo_base,Deep Learning,LSTM,promedio_30d,"LSTM 32, 3 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,40.71,78.46,19.4,en muestra: el ajuste vio estos orígenes
+2026-11-23 08:09,7_LSTM_modelo_base,Deep Learning,LSTM,dia_30,"LSTM 32, 3 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,63.99,126.18,30.17,en muestra: el ajuste vio estos orígenes
+2026-11-23 08:53,8_GRU_modelo_base,Referencia,Referencia: persistencia (P de hoy),pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,178.37,291.68,37.07,
+2026-11-23 08:53,8_GRU_modelo_base,Referencia,Referencia: media del entrenamiento,pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,300.84,456.89,70.13,
+2026-11-23 08:53,8_GRU_modelo_base,Deep Learning,GRU,pares_30d,"GRU 32, 15 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,34650,163.17,271.64,33.59,
+2026-11-23 08:53,8_GRU_modelo_base,Referencia,Referencia: persistencia (P de hoy),promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,145.66,232.21,30.54,
+2026-11-23 08:53,8_GRU_modelo_base,Referencia,Referencia: media del entrenamiento,promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,292.57,421.42,69.83,
+2026-11-23 08:53,8_GRU_modelo_base,Deep Learning,GRU,promedio_30d,"GRU 32, 15 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,132.47,209.2,26.75,
+2026-11-23 08:53,8_GRU_modelo_base,Referencia,Referencia: persistencia (P de hoy),dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,239.27,359.76,48.39,
+2026-11-23 08:53,8_GRU_modelo_base,Referencia,Referencia: media del entrenamiento,dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,298.97,456.09,69.66,
+2026-11-23 08:53,8_GRU_modelo_base,Deep Learning,GRU,dia_30,"GRU 32, 15 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,215.56,336.8,44.67,
+2026-11-23 08:55,8_GRU_modelo_base,Deep Learning,GRU,pares_30d,"GRU 32, 15 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,137040,43.94,94.79,20.7,en muestra: el ajuste vio estos orígenes
+2026-11-23 08:55,8_GRU_modelo_base,Deep Learning,GRU,promedio_30d,"GRU 32, 15 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,35.72,72.46,16.66,en muestra: el ajuste vio estos orígenes
+2026-11-23 08:55,8_GRU_modelo_base,Deep Learning,GRU,dia_30,"GRU 32, 15 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,57.34,118.73,26.67,en muestra: el ajuste vio estos orígenes
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Referencia,Referencia: persistencia (P de hoy),pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,178.37,291.68,37.07,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Referencia,Referencia: media del entrenamiento,pares_30d,regla trivial,65/15/20 por fecha,31,,,prueba,34650,300.84,456.89,70.13,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Deep Learning,Híbrido,pares_30d,"BiLSTM 16 atención dropout 0,2, 5 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,34650,172.3,278.2,35.96,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Referencia,Referencia: persistencia (P de hoy),promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,145.66,232.21,30.54,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Referencia,Referencia: media del entrenamiento,promedio_30d,regla trivial,65/15/20 por fecha,31,,,prueba,1155,292.57,421.42,69.83,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Deep Learning,Híbrido,promedio_30d,"BiLSTM 16 atención dropout 0,2, 5 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,140.17,215.8,28.86,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Referencia,Referencia: persistencia (P de hoy),dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,239.27,359.76,48.39,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Referencia,Referencia: media del entrenamiento,dia_30,regla trivial,65/15/20 por fecha,31,,,prueba,1155,298.97,456.09,69.66,
+2026-11-23 23:20,9_Hibrido_BiLSTM_atencion_modelo_base,Deep Learning,Híbrido,dia_30,"BiLSTM 16 atención dropout 0,2, 5 épocas (5 semillas)",65/15/20 por fecha,31,60.0,,prueba,1155,226.45,340.49,47.06,
+2026-11-23 23:21,9_Hibrido_BiLSTM_atencion_modelo_base,Deep Learning,Híbrido,pares_30d,"BiLSTM 16 atención dropout 0,2, 5 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,137040,43.78,93.19,20.88,en muestra: el ajuste vio estos orígenes
+2026-11-23 23:21,9_Hibrido_BiLSTM_atencion_modelo_base,Deep Learning,Híbrido,promedio_30d,"BiLSTM 16 atención dropout 0,2, 5 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,35.06,71.04,16.64,en muestra: el ajuste vio estos orígenes
+2026-11-23 23:21,9_Hibrido_BiLSTM_atencion_modelo_base,Deep Learning,Híbrido,dia_30,"BiLSTM 16 atención dropout 0,2, 5 épocas (5 semillas)",65/15/20 por fecha,31,,,entrenamiento,4568,55.31,114.03,26.04,en muestra: el ajuste vio estos orígenes

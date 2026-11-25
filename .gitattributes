@@ -1,0 +1,23 @@
+# Fin de línea: LF en el repositorio, siempre.
+# Sin esto, git en Windows convierte a CRLF al tocar los archivos y cada .ipynb aparece cambiado
+# por completo en el diff aunque no se haya editado ni una celda.
+* text=auto eol=lf
+*.ipynb text eol=lf
+*.py    text eol=lf
+*.md    text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+*.yml   text eol=lf
+*.svg   text eol=lf
+
+# Binarios: que no los toque.
+*.png   binary
+*.pdf   binary
+*.xlsx  binary
+*.npy   binary
+*.keras binary
+*.pickle binary
+
+# Los cuadernos llevan las salidas dentro y son grandes: que GitHub no cuente sus líneas al
+# calcular el lenguaje del repositorio ni las muestre en el diff por omisión.
+*.ipynb linguist-documentation
