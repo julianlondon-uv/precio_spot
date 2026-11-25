@@ -178,3 +178,14 @@ SARIMAX con modelos de Deep Learning sobre el mismo mercado.
 El alcance, el protocolo experimental, el conjunto de variables y los resultados de este trabajo son
 propios y difieren de los suyos: aquí la partición es cronológica con embargo, la evaluación se
 segmenta por régimen climático, y la comparación abarca familias que aquel trabajo no incluía.
+
+## Licencia
+
+El **código** de este repositorio se publica bajo licencia [MIT](LICENSE): se puede usar, copiar
+y modificar citando la autoría.
+
+**Los datos no son nuestros y no los cubre esa licencia.** Las series del mercado eléctrico son de
+**XM S.A. E.S.P.**, el índice ONI es de la **NOAA** y el IPC y el IPP son del **DANE**; aquí viajan
+derivados suyos para que los resultados se puedan reproducir, y cada fuente mantiene sus propios
+términos de uso. Quien los reutilice debe acudir a la fuente original.
+

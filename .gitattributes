@@ -18,6 +18,3 @@
 *.keras binary
 *.pickle binary
 
-# Los cuadernos llevan las salidas dentro y son grandes: que GitHub no cuente sus líneas al
-# calcular el lenguaje del repositorio ni las muestre en el diff por omisión.
-*.ipynb linguist-documentation

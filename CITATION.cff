@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Si usa este material, cítelo así."
+title: "Pronóstico del precio de bolsa de la energía eléctrica en Colombia a 30 días"
+abstract: >-
+  Código y datos derivados del trabajo de grado que compara cinco modelos de cuatro familias
+  —estadística, aprendizaje automático clásico, aprendizaje profundo e híbrida— para pronosticar
+  el precio de bolsa de la energía eléctrica en Colombia a treinta días, bajo condiciones
+  experimentales idénticas.
+type: software
+authors:
+  - family-names: "Zambrano Realpe"
+    given-names: "Julio César"
+    affiliation: "Universidad del Valle"
+  - family-names: "Londoño Vélez"
+    given-names: "Julián Esteban"
+    affiliation: "Universidad del Valle"
+repository-code: "https://github.com/julianlondon-uv/precio_spot"
+license: MIT
+date-released: 2026-11-25
+keywords:
+  - electricity price forecasting
+  - time series
+  - Colombia
+  - energy market
+  - SARIMAX
+  - XGBoost
+  - LSTM
+  - GRU
+  - deep learning
+  - reproducible research
